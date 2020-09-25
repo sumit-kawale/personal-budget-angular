@@ -4,28 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Budget</title>
-    <link rel="stylesheet" href="/reset.css">
-    <link rel="stylesheet" href="/main.css">
+    <!-- This is an SEO Change (meta(description)) -->
+    <meta nane="description" content="This personal budget tracker will help you to track your expenses and will help you to manage your budget properly ">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="canonical" href="http://161.35.119.151/pb/">
 </head>
 <body>
 
-    <div class="menu">
+    <!-- This is a Semantic HTML Change(nav) -->
+    <nav class="menu-nav">
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/login.html">Login</a></li>
-            <li><a href="https://google.com">Google</a></li>
-        </ul>
-    </div>
 
-    <div class="hero">
+<!-- This is an A11y Change(arial-label) -->
+            <li><a href="/" aria-label="Home page">Home</a></li>
+            <li><a href="/about.html" aria-label="About us">About</a></li>
+            <li><a href="/login.html" aria-label="User Log">Login</a></li>
+            <li><a href="https://google.com" aria-label="Google home page">Google</a></li>
+        </ul>
+    </nav>
+
+<!-- This is an A11y Change(arial-label) -->
+    <div class="hero" aria-label="personal-budget">
         <h1>Personal Budget</h1>
         <h2>A personal-budget management app</h2>
     </div>
 
-    <div class="container center">
+    <!-- This is a Semantic HTML Change(main) -->
+    <main class="container center">
 
-        <div class="page-area">
+    <!-- This is a Semantic HTML Change(article) -->
+        <article class="page-area">
 
             <div class="text-box">
                 <h1>Stay on track</h1>
@@ -91,15 +100,16 @@
                 </p>
             </div>
 
-        </div>
+        </article>
 
-    </div>
+    </main>
 
-    <div class="bottom">
+    <!-- This is a Semantic HTML Change(footer) -->
+    <footer>
         <div class="center">
             All rights reserved &copy; Fabio Nolasco
         </div>
-    </div>
+    </footer>
 
 </body>
 </html>
