@@ -19,15 +19,15 @@
     <nav class="menu-nav">
         <ul>
 
-<!-- This is an A11y Change(arial-label) -->
+<!-- This is an A11y Change(aria-label) -->
             <li><a href="/" aria-label="Home page">Home</a></li>
             <li><a href="/about.html" aria-label="About us">About</a></li>
-            <li><a href="/login.html" aria-label="User Log">Login</a></li>
+            <li><a href="/login.html" aria-label="User Login">Login</a></li>
             <li><a href="https://google.com" aria-label="Google home page">Google</a></li>
         </ul>
     </nav>
 
-<!-- This is an A11y Change(arial-label) -->
+<!-- This is an A11y Change(aria-label) -->
     <div class="hero" aria-label="personal-budget">
         <h1>Personal Budget</h1>
         <h2>A personal-budget management app</h2>
@@ -106,6 +106,13 @@
         </article>
 
     </main>
+    <!-- This is an A11y Change(Image alt details) -->
+    <div class="container center">
+        <img src="budget.png" alt="Financial Budget" title="Financial Budget">
+        <h2 class="">Know more about Financial Budget</h2>
+    <!-- This is an A11y Change(Button) -->
+        <button onclick="location.href='https://en.wikipedia.org/wiki/Budget'" type ="button" class="button" aria-label="Know more about budget">Click here</button>
+    </div>
 
     <!-- This is a Semantic HTML Change(footer) -->
     <footer>
